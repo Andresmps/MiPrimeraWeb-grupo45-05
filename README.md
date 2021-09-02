@@ -1,6 +1,8 @@
 # grupo45-05-miPrimeraWeb
 Proyecto final Sprint I
 
+[Markdown Guide](https://guides.github.com/features/mastering-markdown/)
+
 ## Septiembre 1
 ---
 Realicé la creación del repo y del proyecto para el sprint.
