@@ -52,7 +52,7 @@ Se realiza reunión a las 8:30pm del Equipo Scrum con el Tutor Scrum Alvaro Alex
 ### Reunión # 1 Equipo Scrum
 
 Se reunen los cinco integrantes del equipo Scrum del proyecto Iservi a las 9:00pm, Se trabaja en el enunciado del proyecto y se hace entrega del mismo. 
----
+
 
 ### Gestión de Configuración: Bitacora
 1. Creación y configuración del repositorio remoto en github: Cada inetgrante creo su cuenta en github y descargo git, para luego configurar cada uno su git de acuero a su nombre de usuario y su correo electronico.
