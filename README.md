@@ -43,3 +43,13 @@ con sus nombres y roles. La sección debe de estar en un tag `<footer></footer>`
 - *David Santiago Pedraza Naranjo*  
 - *Pedro Olano*  
 - *Mario Alexander Arenas A*  
+
+
+
+### Gestión de Configuración: Bitacora
+1. Creación y configuración del repositorio remoto en github: Cada inetgrante creo su cuenta en github y descargo git, para luego configurar cada uno su git de acuero a su nombre de usuario y su correo electronico.
+2. Nos preparamos para el uso de git desde la terminal, con el fin de saber manipular ramas, crear ramas, resetear ramas, subir o bajar documentos del repositorio remoto al repositorio local, etc.
+3. Se tuvo en cuenta de instalar o descargar el entorno de desarrollo de visual studio code, y de instalar las extensiones recomendadas en el material de estudio.
+4. Planteamos el requerimiento del proyecto a realizar, teniendo en cuenta que tiene que cumplir con las especificacion de un proyecto de tipo CRUD.
+5. Se creo el repositorio en github y se agregaron a los integrantes del equipo en el repositorio con el fin de empezar a colaborar.
+6. En la siguiente reunion empezamos primero a planificar la entrega del sprint 1 (Mi primera pagina web), en la cual cada integrante obtuvo una seccion de la cual se tenia que encargar.
