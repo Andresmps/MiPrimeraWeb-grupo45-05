@@ -44,28 +44,14 @@ con sus nombres y roles. La sección debe de estar en un tag `<footer></footer>`
 - *Pedro Olano*  
 - *Mario Alexander Arenas A*  
 
-## Septiembre 1
-
-### Reunión # 1 Equipo Scrum con el Tutor Scrum 
-Se realiza reunión a las 8:30pm del Equipo Scrum con el Tutor Scrum Alvaro Alexis Santacruz, quien da explicación de la entrega del enunciado del proyecto y de los entregables de cada sprint, especialmente el Sprint 0, se resuelven dudas al respecto.
-
-### Reunión # 1 Equipo Scrum
-
-Se reunen los cinco integrantes del equipo Scrum del proyecto Iservi a las 9:00pm, Se trabaja en el enunciado del proyecto y se hace entrega del mismo. 
-
-## Septiembre 5
-
-### Instalación de Aplicaciones 
-1. Instalé la Aplicación Github de escritorio.
-2. Clonación y Conexión a Repositorio Proyecto Iservi. Creación Rama Footer, Trabajo en Página Web Sección Footer.
-3. Instalé y configuré los IDE Visual Studio Code y Atom para el trabajo con el Proyecto Página Web
 
 
-## Gestión de Configuración: Bitacora
+### Gestión de Configuración: Bitacora
 1. Creación y configuración del repositorio remoto en github: Cada inetgrante creo su cuenta en github y descargo git, para luego configurar cada uno su git de acuero a su nombre de usuario y su correo electronico.
 2. Nos preparamos para el uso de git desde la terminal, con el fin de saber manipular ramas, crear ramas, resetear ramas, subir o bajar documentos del repositorio remoto al repositorio local, etc.
 3. Se tuvo en cuenta de instalar o descargar el entorno de desarrollo de visual studio code, y de instalar las extensiones recomendadas en el material de estudio.
 4. Planteamos el requerimiento del proyecto a realizar, teniendo en cuenta que tiene que cumplir con las especificacion de un proyecto de tipo CRUD.
 5. Se creo el repositorio en github y se agregaron a los integrantes del equipo en el repositorio con el fin de empezar a colaborar.
 6. En la siguiente reunion empezamos primero a planificar la entrega del sprint 1 (Mi primera pagina web), en la cual cada integrante obtuvo una seccion de la cual se tenia que encargar.
-
+7. Cada uno adelanto parte del sprint 1 especialmente la parte de HTML, y entre otros compañeros se han creado mas ramas como la dev (de desarrollo).
+8. Desde este punto se empezo a preparar todo para el sprint 0, teniendo en cuenta de completar el DevOps en el GitHub aprendiendo a agregar Project, Issus, ramas, etc.
