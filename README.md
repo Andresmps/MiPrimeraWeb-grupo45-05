@@ -45,15 +45,15 @@ con sus nombres y roles. La sección debe de estar en un tag `<footer></footer>`
 - *Mario Alexander Arenas A*  
 
 ## Septiembre 1
----
+
 ### Reunión # 1 Equipo Scrum con el Tutor Scrum 
 Se realiza reunión a las 8:30pm del Equipo Scrum con el Tutor Scrum Alvaro Alexis Santacruz, quien da explicación de la entrega del enunciado del proyecto y de los entregables de cada sprint, especialmente el Sprint 0, se resuelven dudas al respecto.
 
 ### Reunión # 1 Equipo Scrum
 
 Se reunen los cinco integrantes del equipo Scrum del proyecto Iservi a las 9:00pm, Se trabaja en el enunciado del proyecto y se hace entrega del mismo. 
-
 ---
+
 ### Gestión de Configuración: Bitacora
 1. Creación y configuración del repositorio remoto en github: Cada inetgrante creo su cuenta en github y descargo git, para luego configurar cada uno su git de acuero a su nombre de usuario y su correo electronico.
 2. Nos preparamos para el uso de git desde la terminal, con el fin de saber manipular ramas, crear ramas, resetear ramas, subir o bajar documentos del repositorio remoto al repositorio local, etc.
