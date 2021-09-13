@@ -44,6 +44,15 @@ con sus nombres y roles. La sección debe de estar en un tag `<footer></footer>`
 - *Pedro Olano*  
 - *Mario Alexander Arenas A*  
 
+## Septiembre 1
+---
+### Reunión # 1 Equipo Scrum con el Tutor Scrum 
+---
+Se realiza reunión a las 8:30pm del Equipo Scrum con el Tutor Scrum Alvaro Alexis Santacruz, quien da explicación de la entrega del enunciado del proyecto y de los entregables de cada sprint, especialmente el Sprint 0, se resuelven dudas al respecto.
+
+### Reunión # 1 Equipo Scrum
+---
+Se reunen los cinco integrantes del equipo Scrum del proyecto Iservi a las 9:00pm, Se trabaja en el enunciado del proyecto y se hace entrega del mismo. 
 
 
 ### Gestión de Configuración: Bitacora
@@ -53,3 +62,4 @@ con sus nombres y roles. La sección debe de estar en un tag `<footer></footer>`
 4. Planteamos el requerimiento del proyecto a realizar, teniendo en cuenta que tiene que cumplir con las especificacion de un proyecto de tipo CRUD.
 5. Se creo el repositorio en github y se agregaron a los integrantes del equipo en el repositorio con el fin de empezar a colaborar.
 6. En la siguiente reunion empezamos primero a planificar la entrega del sprint 1 (Mi primera pagina web), en la cual cada integrante obtuvo una seccion de la cual se tenia que encargar.
+
