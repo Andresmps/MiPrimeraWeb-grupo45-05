@@ -1,11 +1,15 @@
+.contenedor-menu{
+    background-color: #255E4B;
+}
 .navegacion-global{
     margin-top: 0px;
     margin-right: -10px;
     margin-left: -10px;
     margin-bottom: 0px;
-    background-color: #255E4B;
+    
     backdrop-filter: 20px;
     -webkit-box-sizing: content-box;
+    box-sizing: content-box;
 }
 
 .lista-navegacion{
@@ -16,4 +20,5 @@ nav li{
     display: inline;
 }
 .boton__navegacion{
+    color: #ffb000;
 }
