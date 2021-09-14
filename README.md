@@ -37,6 +37,12 @@ una se tendrá la información del sitio web como el motivante del desarrollo y 
 enlace al repositorio de github, y en la otra los contacto de los miembros del equipo
 con sus nombres y roles. La sección debe de estar en un tag `<footer></footer>`.
 
+## Septiembre 11
+---
+
+Creación de la tercera y quinta sección de la página web.
+
+
 ## Autores 	:sunglasses: :muscle:
 - *Camilo Andrés Martínez Vargas*  
 - *Juan Sebastian Guzmán Giraldo*  
