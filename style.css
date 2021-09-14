@@ -7,9 +7,11 @@
 .contenedor-menu{
     background-color: #255E4B;
     display: flex;
+    display: -webkit-box;
     flex-wrap: wrap;
     align-content: center;
     text-align: center;
+    width: 100%;
 }
 
 h1{
