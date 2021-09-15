@@ -1,0 +1,48 @@
+body{
+    background-color:rgb(44, 236, 22);
+}
+
+.subtitulo{
+    display: flex;
+    margin-left: 2%;
+}
+
+.subtitulo__cuadradito{
+
+    height: 60px;
+    width: 1%;
+    background-color: aquamarine;
+}
+
+.subtitulo__titulo{
+    width: 20%;
+    text-align: center;
+}
+
+.integrante-i{
+    /* height: 600px; */
+    width: 17%;
+    background-color: aqua;
+    padding: 4px;
+    border: 4px solid red;
+    /* display: inline; */
+    border-radius: 20px;
+}
+
+.integrante-i__imagen{
+    width: 100px;
+    float: left;
+    border-radius: 20px;
+}
+
+.integrante-i__nombre{
+    /* display: inline; */
+    text-align: center;
+
+}
+
+.integrantes{
+    display: flex;
+    justify-content: space-evenly;
+}
+
