@@ -23,7 +23,7 @@ body{
 
 h1{
     color: whitesmoke;
-    display: block;
+    display: none;
     font-size: 3em;
     margin-block-start: 0.67em;
     margin-block-end: 0.67em;
@@ -58,8 +58,8 @@ h1{
 }
 
 .contenedor-logo{
-    width: 30%;
-    display: contents;
+    width: 20%;
+    display: block;
 }
 
 .banner{
