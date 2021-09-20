@@ -65,3 +65,5 @@ Creación de la tercera y quinta sección de la página web.
 10. Para las historios de usuario se utilizaron las plantillas dadas en la plataforma, y se intento escribir las historias desde las perspectivas de los usuarios, teniendo en cuenta pensar sus necesidades, y que el uso de la plataforma fuera muy intuitiva.
 11. El product Backlog Priorizado se realizo con la plantilla de excel de la plataforma teniendo en cuenta las tareas repartidas, los entregables y las modificación que se iban a realizar en los Sprint futuros. Este Product Backlog se realizo junto al Sprint plan y el increment plan.
 12. Se selecciono el logo de la empresa el cual iba a representar parte de nuestra marca personal, e iba a estar en la sección de inicio del Sprint 1.
+
+Fin de documento
