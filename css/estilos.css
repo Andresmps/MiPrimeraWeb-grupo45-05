@@ -301,6 +301,9 @@ footer {
 .subtitulo{
     display: flex;
     margin-left: 2%;
+    width: 100vw;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 .subtitulo__cuadradito{
@@ -311,7 +314,7 @@ footer {
 }
 
 .subtitulo__titulo{
-    width: 100%;
+    width: 90%;
     text-align: start;
     color: aliceblue;
     margin-left: 10px;
@@ -321,17 +324,19 @@ footer {
     border-bottom: 10px solid #2F8E6C;
     border-top: 10px solid #2F8E6C;
     padding-left: 11px;
+    
 }
 
 .integrante-i{
     /* height: 600px; */
-    width: 17%;
+    width: 26%;
     background-color: #ffb000;
     padding: 4px;
     border: 1px solid rgb(55, 53, 223);
     /* display: inline; */
     border-radius: 20px;
     box-shadow: 5px 5px 2px silver;
+    margin-bottom: 50px;
 }
 
 .integrante-i__imagen{
@@ -354,4 +359,17 @@ footer {
 .integrantes{
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 95vw;
+    padding-bottom: 30px;
+}
+
+.equipo{
+    background-color: #255e4b;
+}
+
+.parrafoEquipo{
+    text-align: center;
+    padding-left: 34px;
+    padding-right: 24px;
 }
