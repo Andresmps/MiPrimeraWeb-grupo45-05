@@ -17,6 +17,8 @@ h4 {
 
 /* footer */
 
+/* footer */
+
 footer {
     background: #f2f2f2;
     padding: 60px 0;
@@ -28,12 +30,20 @@ footer {
 }
 
 .partFooter {
-    width: 45%;
+    width: 50%;
     text-align: justify;
     padding-left: 5px;
+    margin-right: 10px;
 }
 
 .partFooter h4 {
+    color: #1d273b;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.partFooter2 h4 {
     color: #1d273b;
     font-size: 20px;
     font-weight: 400;
@@ -88,8 +98,8 @@ footer {
     }
 
     .partFooter {
-        width: 40%;
-        margin-bottom: 40px;
+        width: 46%;
+        margin-bottom: 20px;
     }
 
 
@@ -105,9 +115,12 @@ footer {
     /* Footer */
     .partFooter {
         width: 95%;
-        margin-bottom: 40px;
+        margin-bottom: 20px;
+        margin-right: 10px;
     }
+
 }
+
 
 
 /* Noticias */
@@ -216,7 +229,7 @@ footer {
 
 .contenedor_servicios{
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     margin-left: 5%;
     margin-right: 5%;
     box-sizing: border-box;
