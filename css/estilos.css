@@ -115,70 +115,182 @@ footer {
 .contenedor_noticias{
     display: flex;
     flex-wrap: wrap;
-    margin-left: 15rem;
-    margin-right: 15rem;
+    margin-left: 5%;
+    margin-right: 5%;
     box-sizing: border-box;
-    gap: 1rem;
-    padding-top: 2rem;
-    padding-bottom: 5rem;
+    row-gap: 50%;
+    column-gap: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .seccion_noticias{
-    /* width: 45%; */
-    background-color: #0a6285;
-    /* background: #f2f2f2; */
+    background-color: #f2f2f2;
+    padding-left: 2%; 
+    padding-right: 2%;
 }
 
 .noticia{
     width: 49%;
     margin: 0 auto;
-    /* border: 2px dashed #080808; */
-    background-color: #119292;
+    margin-bottom: 2%;
+    background-color: #255E4B;
+    /* background-color: #38B2B8; */
     border-radius: 5%;
     padding: 50px;
 }
 
 .noticia_imagen{
     display: block;
-    margin-right: auto;
-    margin-left: auto;
     border-radius: 20%;
-    padding: 5px;
-    /* border: 1px solid #ddd; */
+    padding: 5%;
+    margin: 0% auto;
+    max-width:300%;
 }
 
 .noticia_imagen:hover {
     box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
   }
 
-.titulo_noticias{
-    font-family: 'Poppins', sans-serif;
-    color: #ffffff;
-    font-size: 50px;
-    font-weight: 700;
-    /* margin-bottom: 30px; */
-    text-align: center;
-    padding-top: 3rem;
-}
-
 .titulo_noticia{
     font-family: 'Poppins', sans-serif;
-    color: #0b0f38;
-    font-size: 24px;
-    font-weight: 700;
-    margin-bottom: 30px;
+    color: #ffc15d;
+    color:  #ffd477;
+    font-size: 25px;
+    font-weight: 520;
     text-align: center;
+    padding-left: 5%; 
+    padding-right: 5%;
 }
 
 .resumen_noticia{
     font-family: 'Poppins', sans-serif;
     color: #ffffff;
-    font-size: 15px;
+    /* color:  #1E1E1E; */
+    font-size: 18px;
     font-weight: 400;
-    margin-bottom: 30px;
+    padding-left: 5%; 
+    padding-right: 5%;
+    text-align: center;
+
 }
 
-/* .linea_footer{
-    border-top: 4px solid #4c5870;
+.titulo_noticias_recuadro, .titulo_servicios_recuadro{
+    display: flex;
+}
 
-} */
+.item_titulo_noticias, .item_titulo_servicios{
+
+    height: 60px;
+    width: 1%;
+    background-color: #ffb000;
+    margin-bottom: 1%;
+    margin-top: 5%;
+    margin-right: 0.5%;
+    margin-left: 5%;
+    padding-bottom: 1%;
+}
+
+
+.titulo_noticias, .titulo_servicios{
+    width: 89%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 1%;
+    margin-top: 5%;
+    text-align: left;
+    margin-left: 0.5%;
+}
+
+.titulo_servicios {
+    color: #ffffff;
+}
+
+
+
+/* Servicios */
+
+
+.contenedor_servicios{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-sizing: border-box;
+    row-gap: 50%;
+    column-gap: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 20%;
+    padding-right: 20%;
+    /* align-items: center; */
+}
+
+.seccion_servicios{
+    background-color: #255E4B;
+    background-color: #FFB000;
+    background-color: #B57900;
+    background-color: #1E1E1E;
+    background-color: #48464C;
+    background-color: #2F8E6C;
+    padding-left: 2%; 
+    padding-right: 2%;
+}
+
+.servicio{
+    width: 49%;
+    margin: 0 auto;
+    margin-bottom: 2%;
+    background-color: #f2f2f2;
+    border-radius: 5%;
+    padding: 50px;
+}
+
+.servicio_imagen{
+    display: block;
+    border-radius: 20%;
+    padding: 2%;
+    margin-right: auto;
+    margin-left: auto;
+    max-width:50%;
+    max-height:50%;
+    background-color: #48464C;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.servicio_imagen:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  }
+
+.titulo_servicios{
+    /* background-color: #f2f2f2; */
+    padding-left: 2.5%;
+    color: #ffffff;
+}
+
+.titulo_servicio{
+    font-family: 'Poppins', sans-serif;
+    color: #07004D;
+    /* color:  #1E1E1E; */
+    font-size: 35px;
+    font-weight: 520;
+    text-align: center;
+    padding-left: 5%; 
+    padding-right: 5%;
+}
+
+.resumen_servicio{
+    font-family: 'Poppins', sans-serif;
+    color: #1E1E1E;
+    /* color:  #1E1E1E; */
+    font-size: 22px;
+    font-weight: 400;
+    padding-left: 5%; 
+    padding-right: 5%;
+    text-align: left;
+    padding-bottom: 4%;
+}
