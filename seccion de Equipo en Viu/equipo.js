@@ -7,7 +7,7 @@ var appEquipo = new Vue({
         imgMario : 'imagen-team-vue/imagen-mario.jpeg',
         imgJuan : 'imagen-team-vue/imagen-juan.jpg',
         imgDavid : 'imagen-team-vue/imagen-david.jpeg',
-        imgPedro : 'imagen-team-vue/imagen-pedro.jfif',
+        imgPedro : 'imagen-team-vue/imagen-pedro.jpeg',
         infoCamilo : [
             {Cam : 'Camilo Andrés Martínez Vargas'},
             {Cam : 'Edad: 21 años'},
@@ -42,5 +42,17 @@ var appEquipo = new Vue({
             {Ped : 'Rol: Development Team'},
             {Ped : 'Pasatiempos: Programación y desarrollo web'},
         ],
-    }
+        // linkPersonalCamilo: 'https://www.linkedin.com/in/andrescmartinezv ',
+        // linkPersonalMario: 'https://vuejs.org/v2/guide/components-props.html',
+        // linkPersonalJuan: 'https://vuetifyjs.com/en/getting-started/installation/#vue-cli-install',
+        // linkPersonalDavid: 'https://getbootstrap.com/docs/5.1/utilities/flex/',
+        // linkPersonalPedro: 'https://www.google.com/search?gs_ssp=eJzj4tLP1TcoNzC2MDBVYDRgdGDw4sjJzMtOTcnMAwBRaga5&q=linkedin&rlz=1C1ALOY_esCO952CO952&oq=linkel&aqs=chrome.1.69i57j46i67i199i433i465l2j0i67i433j0i10j0i10i433j0i67j0i10l2.2467j0j7&sourceid=chrome&ie=UTF-8',
+        // masInformacion : '',
+    },
+
+    // methods : {
+    //     linkInfo () {
+    //         this.
+    //     } 
+    // }
 });

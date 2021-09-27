@@ -9,25 +9,32 @@
     integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <link rel="stylesheet" href="style-vue.css">
 </head>
-<body class="container">
+<body class="container p-2">
+
+    <style>
+        .subtitulo__cuadradito{
+            width: 10px;
+        }
+    </style>
 
     <!-- <header><h1 class="titulo-seccion">Sección de equipo</h1> etiqueta </header> -->
 
         <div id="app">
-            <section id="team"><!-- bloque     -->
-                <header>
-                    <div class="subtitulo">
-                        <div class="subtitulo__cuadradito">
+            <section id="team" class="alert-success"><!-- bloque     -->
+                <header class="container p-2">
+                    <div class="subtitulo container row">
+                        <div class="subtitulo__cuadradito p-1/2 col-1 bg-success bg-gradient">
                             <div>
 
                             </div>
                         </div>
-                        <h2 class="subtitulo__titulo">{{titulo}}</h2><!-- etiqueta -->
+                        <h2 class="subtitulo__titulo align-self-center p-2 col-11">{{titulo}}</h2><!-- etiqueta -->
                     </div>
                 </header>
-                <div class="integrantes">
-                    <article class="integrante-i"><!-- bloque -->
-                        <img class="integrante-i__imagen" v-bind:src="imgCamilo" > <!-- etiqueta --> 
+
+                <div class="integrantes row justify-content-around container p-2">
+                    <article class="integrante-i col-2 bg-warning p-2"><!-- bloque -->
+                        <img class="integrante-i__imagen img-thumbnail" v-bind:src="imgCamilo" > <!-- etiqueta --> 
 
                         <ol>
                             <li v-for="(Camilo, index) in infoCamilo" :key="index">
@@ -36,10 +43,11 @@
             
                             </li>
                         </ol>
+                        <a href="https://github.com/Andresmps/MiPrimeraWeb-grupo45-05" target="_blank">Información del Desarrollador</a>
                     </article>
 
-                    <article class="integrante-i"><!-- bloque -->
-                        <img class="integrante-i__imagen" v-bind:src="imgMario" > <!-- etiqueta -->                  
+                    <article class="integrante-i col-2 bg-warning p-2"><!-- bloque -->
+                        <img class="integrante-i__imagen img-thumbnail" v-bind:src="imgMario" > <!-- etiqueta -->                  
 
                         <ol>
                             <li v-for="(Mario, index) in infoMario" :key="index">
@@ -47,11 +55,13 @@
                                 {{ Mario.Mar }}
             
                             </li>
-                        </ol>                    
+                        </ol>
+                        <a href="https://github.com/Andresmps/MiPrimeraWeb-grupo45-05" target="_blank">Información del Desarrollador</a>
+                    
                     </article>
 
-                    <article class="integrante-i"><!-- bloque -->
-                        <img class="integrante-i__imagen" v-bind:src="imgJuan" > <!-- etiqueta -->         
+                    <article class="integrante-i col-2 bg-warning p-2"><!-- bloque -->
+                        <img class="integrante-i__imagen img-thumbnail" v-bind:src="imgJuan" > <!-- etiqueta -->         
 
                         <ol>
                             <li v-for="(Juan, index) in infoJuan" :key="index">
@@ -60,10 +70,12 @@
             
                             </li>
                         </ol>
+                        <a href="https://github.com/Andresmps/MiPrimeraWeb-grupo45-05" target="_blank">Información del Desarrollador</a>
+
                     </article>
 
-                    <article class="integrante-i"><!-- bloque -->
-                        <img class="integrante-i__imagen" v-bind:src="imgDavid" > <!-- etiqueta -->             
+                    <article class="integrante-i col-2 bg-warning p-2"><!-- bloque -->
+                        <img class="integrante-i__imagen img-thumbnail" v-bind:src="imgDavid" > <!-- etiqueta -->             
 
                         <ol>
                             <li v-for="(David, index) in infoDavid" :key="index">
@@ -72,10 +84,12 @@
             
                             </li>
                         </ol>
+                        <a href="https://github.com/Andresmps/MiPrimeraWeb-grupo45-05" target="_blank">Información del Desarrollador</a>
+
                     </article>
 
-                    <article class="integrante-i"><!-- bloque -->
-                        <img class="integrante-i__imagen" v-bind:src="imgPedro" > <!-- etiqueta -->     
+                    <article class="integrante-i col-2 bg-warning p-2"><!-- bloque -->
+                        <img class="integrante-i__imagen img-thumbnail " v-bind:src="imgPedro" > <!-- etiqueta -->     
 
                         <ol>
                             <li v-for="(Pedro, index) in infoPedro" :key="index">
@@ -84,11 +98,14 @@
             
                             </li>
                         </ol>
+                        <a href="https://github.com/Andresmps/MiPrimeraWeb-grupo45-05" target="_blank">Información del Desarrollador</a>
+
                     </article>
 
                 </div>
             </section>
         </div>
+
 
     <!-- development version, includes helpful console warnings -->
     <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
