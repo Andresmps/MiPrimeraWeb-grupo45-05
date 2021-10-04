@@ -2,6 +2,7 @@ const app = new Vue (
     {
         el: '#app',
         data: {
+            nombre_plataforma: 'iSERVI',
             secciones : {
                 seccion_servicios : {
                     nombre : "Servicios",
@@ -26,7 +27,7 @@ const app = new Vue (
                     }
                 },
                 seccion_noticias : {
-                    
+
                 }
 
             }
