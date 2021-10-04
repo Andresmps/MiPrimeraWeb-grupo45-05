@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=1200px, initial-scale=1.0">
+    <title>Mi primera pagina grupo 05</title>
+    <!-- <header>Mi primera pagina</header> -->
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;700&display=swap" rel="stylesheet">
+    <link
+     href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+     rel="stylesheet"
+     integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" 
+     crossorigin="anonymous"
+    >
+</head>
+<body>
+
+  
+<!-- Menu -->
+
+<header class="header_class">
+  <div id = "navegacion" class="contenedor-menu">
+      <div class="titulo-pagina" >
+          <h1> iServi</h1>
+      </div>
+      
+      <div class="contenedor-logo" >
+          <img class = "contenedor-logo__site-logo" src="../images/Logo 2 Invertido.png"  height="70 px" >
+      </div>
+
+      <nav class="navegacion-global">
+      
+          <ul class="lista-navegacion">
+              <a class ="boton__navegacion" href="#navegacion">Inicio</a>
+              <a class ="boton__navegacion" href="#services">Servicios</a>
+              <a class ="boton__navegacion" href="#news">Noticias</a>
+              <a class ="boton__navegacion" href="#team">Nosotros</a>
+              <!-- <a class ="boton__navegacion" href="#">Contáctenos</a> -->
+          </ul>
+      </nav>
+      </div>
+      <div class="banner">
+          <img src="../images/BannerOpt.gif" alt="Banner de presentación">
+      </div>
+  
+
+  </header>
+
+
+<!-- servicios -->
+<div id="app">
+<section class="seccion_servicios container" id=services style="background-color: #82b6a4;">  
+
+  <header class="p-2">
+    <div class="titulo_servicios_recuadro container row">
+        <div class="item_titulo_servicios p-1 col-1 bg-success bg-gradient" style="width: 10px;">
+            <div>  </div>
+        </div>
+        <h2 class="titulo_servicios align-self-center p-2 col-11">
+            {{secciones.seccion_servicios.nombre}}
+        </h2>
+    </div>
+  </header>
+
+  <div class="contenedor_servicios row justify-content-around container">
+
+      <!-- Servicio 1 -->
+      <article class="servicio col-3 bg-light p-2 rounded border-danger">
+
+      
+      <img class="servicio_imagen img-fluid rounded-circle" :src="secciones.seccion_servicios.imagenes.img1"
+      alt="Imagen servicio usuarios" width="350px" height="350px">
+      
+      <p class="text-center text-uppercase fw-bold text-danger">{{secciones.seccion_servicios.servicios.servicio_usuarios.nombre}}</p>
+      <p>{{secciones.seccion_servicios.servicios.servicio_usuarios.descripcion}}</p>
+
+      </article>
+
+      <!-- Servicio 2 -->
+
+      <article class="servicio col-3 bg-light p-2 rounded border-danger">
+      
+      <img class="servicio_imagen img-fluid rounded-circle" :src="secciones.seccion_servicios.imagenes.img2"
+      alt="Calificación de los usuarios">
+      
+      <p class="text-center text-uppercase fw-bold text-danger">{{secciones.seccion_servicios.servicios.servicio_valoracion.nombre}}</p>
+      <p>{{secciones.seccion_servicios.servicios.servicio_valoracion.descripcion}}</p>
+      
+      </article>
+
+      <!-- Servicio 3 -->
+
+      <article class="servicio col-3 bg-light p-2 rounded border-danger">
+          <img class="servicio_imagen img-fluid rounded-circle" :src="secciones.seccion_servicios.imagenes.img3"
+          alt="Calificación de los usuarios">
+          <p class="text-center text-uppercase fw-bold text-danger">{{secciones.seccion_servicios.servicios.servicio_contracciones.nombre}}</p>
+          <p>{{secciones.seccion_servicios.servicios.servicio_contracciones.descripcion}}</p>
+          
+          </article>
+
+  </div>>
+  <!-- development version, includes helpful console warnings -->
+
+</section>
+
+
+<!-- noticias -->
+<section class="seccion_noticias container" id=news">
+
+  <header  class="p-2">
+    <div class="titulo_noticias_recuadro container row">
+      <div class="item_titulo_servicios p-1 col-1 bg-success bg-gradient"  style="width: 10px;">
+          <div> </div>
+      </div>
+      <h2 class="titulo_noticias align-self-center p-2 col-11">
+        Noticias 
+      </h2>
+    </div>
+  </header>
+
+  <div class="contenedor_noticias row justify-content-around container">
+
+    <!-- Noticia 1 -->
+      <article class="noticia col-5 p-2 rounded ">
+
+        <h4 class="titulo_noticia fw-bold">
+          La OIT aboga por proteger mejor a los trabajadores a domicilio
+        </h4>
+        
+        <a href="https://www.ilo.org/global/about-the-ilo/newsroom/news/WCMS_765904/lang--es/index.htm">
+          <img class="noticia_imagen img-fluid" src="../images/img_noticia1.jpg"
+          alt="Imagen noticia 1" width="350px" height="350px">
+        </a>
+
+        <p class="resumen_noticia fw">
+          El aumento sustancial del trabajo a domicilio a raíz de la pandemia de COVID-19
+          ha puesto de manifiesto las deficientes condiciones de trabajo de muchos
+          trabajadores a domicilio, alrededor de 260 millones de personas en todo
+          el mundo antes de la crisis.
+        </p>
+      </article>
+
+
+      <!-- Noticia 2 -->
+      <article class="noticia col-5 p-2 rounded ">
+
+        <h3 class="titulo_noticia fw-bold">
+          Menos mujeres que hombres recuperarán el empleo durante el post COVID-19
+        </h3>
+        
+        <a href="https://www.ilo.org/global/about-the-ilo/newsroom/news/WCMS_813643/lang--es/index.htm">
+          <img class="noticia_imagen img-fluid" src="../images/img_noticia2.jpg"
+          alt="Imagen noticia 2" width="350px" height="350px">
+        </a>
+
+        <p class="resumen_noticia fw">
+          Un nuevo análisis asegura que la desproporcionada pérdida de empleos e ingresos sufrida
+           por las mujeres durante la pandemia seguirá en el futuro.
+        </p>
+      </article>
+
+
+      <!-- Noticia 3 -->
+      <article class="noticia  col-5 p-2 rounded ">
+
+        <h3 class="titulo_noticia fw-bold">
+          Empleadas domésticas y niñeras sin cuarentena
+        </h3>
+        
+        <a href="https://www.semana.com/nacion/articulo/empleadas-domesticas-y-nineras-sin-cuarentena-una-excepcion-fatal-frente-al-coronavirus/659162/">
+          <img class="noticia_imagen img-fluid" src="../images/img_noticia3.jpg"
+          alt="Imagen noticia 3" width="350px" height="350px">
+        </a>
+
+        <p class="resumen_noticia fw">
+          El gobierno de Colombia debe tomar nota de la triste experiencia de Brasil donde
+           una de las primeras muertes por covid-19 fue una mujer del servicio contagiada
+            por su empleadora. La ministra Arango ya detectó "abusos".
+        </p>
+      </article>
+
+
+      <!-- Noticia 4 -->
+      <article class="noticia col-5 p-2 rounded  ">
+
+        <h3 class="titulo_noticia fw-bold">
+          Fin del trabajo infantil y del trabajo forzoso en la cosecha de algodón de Uzbekistán
+        </h3>
+        
+        <a href="https://www.ilo.org/global/about-the-ilo/multimedia/video/institutional-videos/WCMS_818199/lang--es/index.htm">
+          <img class="noticia_imagen img-fluid" src="../images/img_noticia4.jpg"
+          alt="Imagen noticia 4" width="350px" height="350px">
+        </a>
+
+        <p class="resumen_noticia fw">
+          Uzbekistán es el sexto productor mundial de algodón. Dos millones de personas recogen
+           el algodón en estas cosechas. La OIT colabora con el gobierno, los trabajadores,
+            los empresarios y la sociedad civil para poner fin al trabajo infantil y
+             al trabajo forzoso durante la cosecha.
+        </p>
+      </article>
+    
+    </div> -->
+
+  </section>
+
+
+  <!-- Seccion team -->
+
+  <section id="team" class="equipo"><!-- bloque     -->
+    <header>
+        <div class="subtitulo">
+            <div class="subtitulo__cuadradito">
+                <div>
+
+                </div>
+            </div>
+            <h2 class="subtitulo__titulo">Sección de Equipo</h2><!-- etiqueta -->
+        </div>
+    </header>
+        <div class="integrantes">
+            <article class="integrante-i"><!-- bloque -->
+                <img class="integrante-i__imagen" src="../images/imagen-team/imagen-camilo.jpeg" alt="Imagen de Camilo Andrés Martínez Vargas"> <!-- etiqueta --> 
+
+                <br>
+                <p class="integrante-i__nombre"> Camilo Andrés Martínez Vargas </p> <!-- etiqueta -->                    
+
+                <br>
+                <p class="parrafoEquipo">• Edad: 21 años</p> <!-- etiqueta -->
+                <p class="parrafoEquipo">• Profesion: Matematico</p> <!-- etiqueta -->
+                <p class="parrafoEquipo">• Pasatiempos: Ver series, leer libros, jugar futbol o basquetball</p> <!-- etiqueta -->
+            </article>
+
+            <article class="integrante-i"><!-- bloque -->
+                <img class="integrante-i__imagen" src="../images/imagen-team/imagen-mario.jpeg" alt="Imagen de Mario Alexander Arenas Agudelo"> <!-- etiqueta --> 
+
+                <br>
+                <p class="integrante-i__nombre"> Mario Alexander Arenas Agudelo </p> <!-- etiqueta -->                    
+
+                <br>
+                <p class="parrafoEquipo">• Edad: 40 años</p> <!-- etiqueta -->
+                <p class="parrafoEquipo">• Profesion: Docente Tecnología e Informática</p> <!-- etiqueta -->
+                <p class="parrafoEquipo">• Pasatiempos: Programar, La Tecnología, el Cine y la música, Tocar Guitarra</p> <!-- etiqueta -->
+            </article>
+
+            <article class="integrante-i"><!-- bloque -->
+                <img class="integrante-i__imagen" src="../images/imagen-team/imagen-juan.jpg" alt="Imagen de Juan Sebastian Guzmán Giraldo"> <!-- etiqueta --> 
+
+                <br>
+                <p class="integrante-i__nombre"> Juan Sebastian Guzmán Giraldo </p> <!-- etiqueta -->                    
+
+                <br>
+                <p class="parrafoEquipo">• Edad: 23 años</p> <!-- etiqueta -->
+                <p class="parrafoEquipo">• Profesion: Economista y Negociador internacional</p> <!-- etiqueta -->
+                <p class="parrafoEquipo">• Pasatiempos: Aficionado al manga, la literatura, el diseño y la animación</p> <!-- etiqueta -->
+            </article>
+
+            <article class="integrante-i"><!-- bloque -->
+                <img class="integrante-i__imagen" src="../images/imagen-team/imagen-david.jpeg" alt="Imagen de David Santiago Pedraza Naranjo"> <!-- etiqueta --> 
+
+                <br>
+                <p class="integrante-i__nombre"> David Santiago Pedraza Naranjo </p> <!-- etiqueta -->                    
+
+                <br>
+                <p class="parrafoEquipo">• Edad: 20 años</p> <!-- etiqueta -->
+                <p class="parrafoEquipo">• Profesion: Estudiante de Ingenieria Agronomica</p> <!-- etiqueta -->
+                <p class="parrafoEquipo">• Pasatiempos: Hacer deporte, Ver peliculas, programar</p> <!-- etiqueta -->
+            </article>
+
+            <article class="integrante-i"><!-- bloque -->
+                <img class="integrante-i__imagen" src="../images/imagen-team/imagen-pedro.jfif" alt="Imagen de Pedro Olano "> <!-- etiqueta --> 
+                
+                <br>
+                <p class="integrante-i__nombre"> Pedro Olano </p> <!-- etiqueta -->                    
+
+                
+                <br>
+                <p class="parrafoEquipo">• Edad: ## años</p> <!-- etiqueta -->
+                <p class="parrafoEquipo">• Rol: Development Team</p> <!-- etiqueta -->
+                <p class="parrafoEquipo">• Pasatiempos: Programación y desarrollo web</p> <!-- etiqueta -->
+            </article>
+
+        </div>
+    
+    <!-- Footer section-->
+  </section>
+
+  <!-- <div class="linea_footer"></div> -->
+
+
+    <footer>
+            <div class="partFooter">
+              <img src="../images/Logo 2.png" alt="Logo">
+
+                  <p>
+                      Plataforma Web enfocada en ofrecer y contratar servicios profesionales
+                      de diferente tipo como: niñera, cerrajero, servicio de limpieza, paseador
+                      de perros, aseo/limpieza, peluquero, plomero, electricista, etc.
+                      La palataforma maneja dos tipos de perfiles. Por un lado, estará el perfil
+                      de “proveedor de servicios” que hará referencia a las personas que van a ofrecer
+                      alguno de los servicios ya comentados anteriormente. Por otro lado, estará el perfil
+                      de “cliente”, el cual permitirá la visualización de los distintos servicios
+                      disponibles junto con las valoraciones, comentarios y detalles que tengan dichos
+                      servicios para así seleccionar el que mejor se ajuste a sus necesidades.
+                  </p>
+                  <br>
+                  <h4>Repositorio</h4>
+                  <div class="social-media">
+                          <a href="https://github.com/Andresmps/MiPrimeraWeb-grupo45-05"><i class="fab fa-github"></i></a>
+                  </div>
+            </div>
+            <div class="partFooter2">
+                  <h4>Integrantes Equipo</h4>
+                  <p>Juan Sebástian Guzman
+                      <br>Rol: Development Team - Scrum Master
+                      <br>Contacto: juanguzgira@outlook.com
+                  </p><br>
+                  <p>Pedro Olano
+                      <br>Rol: Product Owner - Development Team
+                      <br>Contacto: pedroolano12@gmail.com
+                  </p><br>
+                  <p>Camilo Martínez
+                    <br>Rol: Development Team - Backend
+                    <br>Contacto: andresmartinezen@gmail.com
+                  </p><br>
+                  <p>David Pedraza
+                    <br>Rol: Development Team - Product Owner
+                    <br>Contacto: pedrazanaranjosantiago@gmail.com
+                  </p><br>
+                  <p>Mario Arenas Agudelo
+                    <br>Rol: Development Team - Backend - Frontend
+                    <br>Contacto: mario.alexa.arenas@gmail.com
+                  </p>
+            </div>
+    </footer>
+  <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+  <script src="../js/main.js"></script>
+</div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://kit.fontawesome.com/c15b744a04.js" crossorigin="anonymous"></script>
+    <script src="JavaScript/main.js"></script>
+  </body>
+</html>
