@@ -141,8 +141,9 @@ footer {
 
 .seccion_noticias{
     background-color: #f2f2f2;
-    padding-left: 2%; 
-    padding-right: 2%;
+    /* padding-left: 2%; 
+    padding-right: 2%; */
+    /* style: width: 10px; */
 }
 
 .noticia{
@@ -160,7 +161,7 @@ footer {
     border-radius: 20%;
     padding: 5%;
     margin: 0% auto;
-    max-width:300%;
+    max-width:500%;
 }
 
 .noticia_imagen:hover {
@@ -171,8 +172,8 @@ footer {
     font-family: 'Poppins', sans-serif;
     color: #ffc15d;
     color:  #ffd477;
-    font-size: 25px;
-    font-weight: 520;
+    /* font-size: 25px;
+    font-weight: 520; */
     text-align: center;
     padding-left: 5%; 
     padding-right: 5%;
@@ -182,8 +183,8 @@ footer {
     font-family: 'Poppins', sans-serif;
     color: #ffffff;
     /* color:  #1E1E1E; */
-    font-size: 18px;
-    font-weight: 400;
+    /* font-size: 18px;
+    font-weight: 400; */
     padding-left: 5%; 
     padding-right: 5%;
     text-align: center;
@@ -194,20 +195,20 @@ footer {
     display: flex;
 }
 
-.item_titulo_noticias, .item_titulo_servicios{
+.item_titulo_noticias, .item_titulo_servicios, .item_equipo{
 
     height: 60px;
     width: 1%;
     background-color: #ffb000;
     margin-bottom: 1%;
     margin-top: 5%;
-    margin-right: 0.5%;
-    margin-left: 5%;
+    margin-right: 0.5rem;
+    margin-left: 3rem;
     padding-bottom: 1%;
 }
 
 
-.titulo_noticias, .titulo_servicios{
+.titulo_noticias, .titulo_servicios, .titulo_equipo{
     width: 89%;
     font-family: 'Poppins', sans-serif;
     font-size: 45px;
@@ -218,7 +219,7 @@ footer {
     margin-left: 0.5%;
 }
 
-.titulo_servicios {
+.titulo_servicios, .titulo_equipo {
     color: #ffffff;
 }
 
@@ -249,8 +250,8 @@ footer {
     background-color: #1E1E1E;
     background-color: #48464C;
     background-color: #2F8E6C;
-    padding-left: 2%; 
-    padding-right: 2%;
+    /* padding-left: 2%; 
+    padding-right: 2%; */
 }
 
 .servicio{
@@ -311,22 +312,22 @@ footer {
 
 /* Seccion del equipo */
 
-.subtitulo{
+/* .subtitulo{
     display: flex;
     margin-left: 2%;
     width: 100vw;
     padding-bottom: 20px;
     padding-top: 20px;
-}
+} */
 
-.subtitulo__cuadradito{
+/* .subtitulo__cuadradito{
 
     height: 60px;
     width: 1%;
     background-color: #B57900;
-}
+} */
 
-.subtitulo__titulo{
+/* .subtitulo__titulo{
     width: 90%;
     text-align: start;
     color: aliceblue;
@@ -338,7 +339,7 @@ footer {
     border-top: 10px solid #2F8E6C;
     padding-left: 11px;
     
-}
+} */
 
 .integrante-i{
     /* height: 600px; */
@@ -452,4 +453,8 @@ h1{
 
 .header_class{
     background-color: #2F8E6C;
+}
+
+.integrante-i__imagen{
+    margin-bottom: 5%;
 }
