@@ -1,0 +1,474 @@
+{
+	"info": {
+		"_postman_id": "6bd91daa-8bb8-4f74-953b-a09963ee7c22",
+		"name": "iServi",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "customers",
+			"item": [
+				{
+					"name": "new_customer",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"password\": \"test password\",\r\n    \"name\": \"andres martinez\",\r\n    \"email\": \"andres@gmail.com\",\r\n    \"address\": \"test direccion\",\r\n    \"phone_number_32\": \"312645978\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/new_customer",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"new_customer"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get_all_customers",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"password\": \"test password\",\r\n    \"name\": \"andres martinez\",\r\n    \"email\": \"andres@gmail.com\",\r\n    \"address\": \"test direccion\",\r\n    \"phone_number_32\": \"312645978\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/get_all_customers",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"get_all_customers"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "delete_customer",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": []
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/delete_customer/615d37aee37d8d2f35be2752",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"delete_customer",
+								"615d37aee37d8d2f35be2752"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "update_customer",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"username\": \"andres_test_2\" \r\n\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/update_customer/615d3758208cfc3d734bd46e",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"update_customer",
+								"615d3758208cfc3d734bd46e"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get_customer",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "id",
+								"value": "615ceb25fb4b05ba1105b639",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": []
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/get_customer/615d41f4864ff5dcb1c7eead",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"get_customer",
+								"615d41f4864ff5dcb1c7eead"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "employees",
+			"item": [
+				{
+					"name": "get_employee",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "id",
+								"value": "615ceb25fb4b05ba1105b639",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": []
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/get_employee/615d4877a6d00f7962fad9dc",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"get_employee",
+								"615d4877a6d00f7962fad9dc"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "delete_employee",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": []
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/delete_employee/615d2310ff926f90bd0ded87",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"delete_employee",
+								"615d2310ff926f90bd0ded87"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "new_employee",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"username\": \"test_employee_1\",\r\n    \"password\": \"12345\",\r\n    \"name\": \"andres martinez\",\r\n    \"email\": \"andres@gmail.com\",\r\n    \"address\": \"direccion\",\r\n    \"phone_number\": \"312645978\",\r\n    \"employee_description\": \"test\",\r\n    \"experience\": \"test\",\r\n    \"services\": [\"615d1d077b9e1e5a9d5d4be8\", \"615d460a4e7953199022011a\"]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/new_employee",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"new_employee"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get_all_employees",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"password\": \"test password\",\r\n    \"name\": \"andres martinez\",\r\n    \"email\": \"andres@gmail.com\",\r\n    \"address\": \"test direccion\",\r\n    \"phone_number_32\": \"312645978\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/get_all_employees",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"get_all_employees"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "update_employee",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"password\": \"987654\" \r\n\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/update_employee/615d4877a6d00f7962fad9dc",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"update_employee",
+								"615d4877a6d00f7962fad9dc"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "services",
+			"item": [
+				{
+					"name": "get_service",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "id",
+								"value": "615ceb25fb4b05ba1105b639",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": []
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/get_service/615d460a4e7953199022011a",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"get_service",
+								"615d460a4e7953199022011a"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "delete_service",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": []
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/delete_service/615d1d127b9e1e5a9d5d4bea",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"delete_service",
+								"615d1d127b9e1e5a9d5d4bea"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "new_service",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"service_name\": \"aseadora\",\r\n    \"service_description\": \"test description\",\r\n    \"cost_per_hour\": 120000\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/new_service",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"new_service"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get_all_services",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"password\": \"test password\",\r\n    \"name\": \"andres martinez\",\r\n    \"email\": \"andres@gmail.com\",\r\n    \"address\": \"test direccion\",\r\n    \"phone_number_32\": \"312645978\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/get_all_services",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"get_all_services"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "update_service",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"service_name\": \"plomero\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/update_service/615d1d077b9e1e5a9d5d4be8",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"update_service",
+								"615d1d077b9e1e5a9d5d4be8"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
