@@ -11,7 +11,7 @@
  
           <v-content>
  
-           <SobreNosotros/>
+           
  
           </v-content>      
  
@@ -52,12 +52,12 @@
 import Menu from './components/Menu.vue'
 import Footer from './components/Footer.vue'
 import ServiciosDesatacados from './components/Home/ServiciosDesatacados.vue'
-import SobreNosotros from './components/Nosotros/SobreNosotros.vue'
+
 
 export default {
   name: 'App',
   components:{
-    Menu, Footer, ServiciosDesatacados, SobreNosotros
+    Menu, Footer, ServiciosDesatacados, 
   },
   data: () => ({
    

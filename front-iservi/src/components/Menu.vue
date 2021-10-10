@@ -34,20 +34,11 @@
                 v-on="on"
                 class="text-capitalize"
               >
-                <router-link to="/Nosotros" class="flm">Nosotros</router-link>
+                <router-link to="/Noticias" class="flm">Noticias</router-link>
               </v-btn>
               
             </template>
-            <v-list>
-              <v-list-item
-                v-for="(item, index) in items"
-                :key="index"
-                class="bgsel"
-                link
-              >
-                <v-list-item-title>{{ item.title }}</v-list-item-title>
-              </v-list-item>
-            </v-list>
+            
           </v-menu>
         </div>
  
@@ -56,7 +47,7 @@
           class="text-capitalize mr-2"
           v-show="$vuetify.breakpoint.lgOnly"
         >
-          <router-link to="/servicios" class="flm">Servicios</router-link> 
+          <router-link to="/Equipo" class="flm">Equipo</router-link> 
         </v-btn>
  
         <v-btn
@@ -64,19 +55,19 @@
           class="text-capitalize mr-14"
           v-show="$vuetify.breakpoint.lgOnly"
         >
-          <router-link to="/contacto" class="flm">Contacto</router-link> 
+          <router-link to="/Nosotros" class="flm">Nosotros</router-link> 
+        </v-btn>
+
+        <v-btn
+          dark
+          class="text-capitalize mr-2"
+          v-show="$vuetify.breakpoint.lgOnly"
+        >
+          <router-link to="/Registro" class="flm">Registro</router-link> 
         </v-btn>
  
       <v-btn icon>
         <v-icon>mdi-magnify</v-icon>
-      </v-btn>
- 
-      <v-btn icon>
-        <v-icon>mdi-heart</v-icon>
-      </v-btn>
- 
-      <v-btn icon>
-        <v-icon>mdi-dots-vertical</v-icon>
       </v-btn>
     </v-toolbar>
  
@@ -108,7 +99,7 @@
               <v-icon>mdi-account-multiple</v-icon>
             </v-list-item-icon>
             <v-list-item-title>
-              <router-link to="/Nosotros" class="flm">Nosotros</router-link>
+              <router-link to="/Noticias" class="flm">Noticias</router-link>
             </v-list-item-title>
           </v-list-item>
  
@@ -117,7 +108,7 @@
               <v-icon>mdi-format-list-bulleted</v-icon>
             </v-list-item-icon>
             <v-list-item-title>
-              <router-link to="/servicios" class="flm">Servicios</router-link>
+              <router-link to="/Equipo" class="flm">Equipo</router-link>
             </v-list-item-title>
           </v-list-item>
  
@@ -126,10 +117,19 @@
               <v-icon>mdi-earth</v-icon>
             </v-list-item-icon>
             <v-list-item-title>
-              <router-link to="/contacto" class="flm">Contacto</router-link>
+              <router-link to="/Nosotros" class="flm">Nosotros</router-link>
             </v-list-item-title>
           </v-list-item>
-  
+
+          <v-list-item>
+            <v-list-item-icon>
+              <v-icon>mdi-earth</v-icon>
+            </v-list-item-icon>
+            <v-list-item-title>
+              <router-link to="/Registro" class="flm">Registro</router-link>
+            </v-list-item-title>
+          </v-list-item>
+
         </v-list-item-group>
       </v-list>        
     </v-navigation-drawer>
@@ -147,63 +147,8 @@
     name: 'Menu',
  
     data: () => ({
-      drawer: false,
-      group: null,      
-      items: [
-        { title: 'Misión' },
-        { title: 'Objetivo' },
-        { title: 'Visión' },        
-      ],
-      ecosystem: [
-        {
-          text: 'vuetify-loader',
-          href: 'https://github.com/vuetifyjs/vuetify-loader',
-        },
-        {
-          text: 'github',
-          href: 'https://github.com/vuetifyjs/vuetify',
-        },
-        {
-          text: 'awesome-vuetify',
-          href: 'https://github.com/vuetifyjs/awesome-vuetify',
-        },
-      ],
-      importantLinks: [
-        {
-          text: 'Documentation',
-          href: 'https://vuetifyjs.com',
-        },
-        {
-          text: 'Chat',
-          href: 'https://community.vuetifyjs.com',
-        },
-        {
-          text: 'Made with Vuetify',
-          href: 'https://madewithvuejs.com/vuetify',
-        },
-        {
-          text: 'Twitter',
-          href: 'https://twitter.com/vuetifyjs',
-        },
-        {
-          text: 'Articles',
-          href: 'https://medium.com/vuetify',
-        },
-      ],
-      whatsNext: [
-        {
-          text: 'Explore components',
-          href: 'https://vuetifyjs.com/components/api-explorer',
-        },
-        {
-          text: 'Select a layout',
-          href: 'https://vuetifyjs.com/getting-started/pre-made-layouts',
-        },
-        {
-          text: 'Frequently Asked Questions',
-          href: 'https://vuetifyjs.com/getting-started/frequently-asked-questions',
-        },
-      ],
+            
+      
     }),
  
     methods: {

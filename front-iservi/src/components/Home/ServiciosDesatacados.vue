@@ -1,11 +1,23 @@
 <template>
  
   <v-item-group class="mt-6">
+    <v-snackbar
+      :timeout="-1"
+      :value="true"
+      absolute
+      color="teal lighten-2"
+      left
+      shaped
+      top
+    >
+      SERVICIOS
+    </v-snackbar>
        <v-container fluid>
     
-   <v-chip left-space-around color="teal lighten-2" text-color="white">SERVICIOS</v-chip>
+   
   </v-container>
-
+<v-container></v-container>
+<v-container></v-container>
 
     <v-container>
  
