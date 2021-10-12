@@ -6,6 +6,7 @@
 		dark
 		class="pt-5 mt-10"
 	>
+	<v-btn @click="cerrarSesion" variant="outline-primary">Cerrar sesion</v-btn>
 		
 		<v-container>
  
@@ -34,7 +35,11 @@
 				var año = new Date().getFullYear();
 				document.getElementById('año').innerHTML = año;
 				//console.log(año);
-			}
+			},
+			      cerrarSesion(){
+        window.localStorage.removeItem('autenticacion');
+        this.$router.push({path: '/'});
+      },
 		},
  
 		mounted () {

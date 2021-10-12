@@ -24,6 +24,16 @@
         >
           <router-link to="/" class="flm">Home</router-link> 
         </v-btn>
+
+
+
+        <v-btn
+          dark
+          class="text-capitalize mr-2 "
+          v-show="$vuetify.breakpoint.lgOnly"
+        >
+          <router-link to="/servicios" class="flm">Servicios</router-link> 
+        </v-btn>
  
         <div class="text-center mr-2" v-show="$vuetify.breakpoint.lgOnly">
           <v-menu offset-y>
@@ -131,7 +141,7 @@
           </v-list-item>
 
         </v-list-item-group>
-      </v-list>        
+      </v-list> 
     </v-navigation-drawer>
     <v-img
       lazy-src="https://picsum.photos/id/11/10/6"
@@ -139,6 +149,7 @@
       max-width="100%"
       src="./images/BannerOpt.gif"
 >   </v-img>
+
   </v-card>
   
 </template>
@@ -154,7 +165,8 @@
     methods: {
       menuItems() {
         return this.menu;
-      }
+      },
+
     }
  
   }
