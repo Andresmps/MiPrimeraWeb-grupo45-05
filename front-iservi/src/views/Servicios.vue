@@ -1,15 +1,15 @@
 <template>
-  <SobreNosotros/>
+  <ServiciosDesatacados/>
 </template>
 
 <script>
-  import SobreNosotros from '../components/Nosotros/SobreNosotros.vue'
+  import ServiciosDesatacados from '../components/Home/ServiciosDesatacados.vue'
 
   export default {
-    name: 'Nosotros',
+    name: 'Servicios',
 
     components: {
-      SobreNosotros,
+      ServiciosDesatacados,
     },
 
     beforeCreate(){
@@ -17,8 +17,8 @@
     var autentication = window.localStorage.getItem('autenticacion');
     console.log("Autenticacion esta "+autentication)
     if(autentication !== 'ok'){
-          this.$router.push({path: '/'});
-      }
+            this.$router.push({path: '/'});
+        }
     },
   }
 </script>

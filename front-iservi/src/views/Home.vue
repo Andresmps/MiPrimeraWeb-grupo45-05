@@ -1,15 +1,18 @@
 <template>
-  <ServiciosDesatacados/>
+
+    <div class="home">
+    <img alt="Vue logo" src="../assets/logoiServi.png">
+    <HelloWorld msg="Inicio de sesion"/>
+  </div>
 </template>
 
 <script>
-  import ServiciosDesatacados from '../components/Home/ServiciosDesatacados.vue'
-
+import HelloWorld from '@/components/HelloWorld.vue'
   export default {
     name: 'Home',
-
     components: {
-      ServiciosDesatacados,
-    },
+    HelloWorld
+  }
+
   }
 </script>
